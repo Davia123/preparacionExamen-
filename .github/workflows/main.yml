@@ -1,4 +1,4 @@
-name: EXAMEN
+name: examen
 
 on: [push]
 
@@ -11,7 +11,7 @@ jobs:
       - name: PHPUnit Tests
         uses: php-actions/phpunit@v1
         env:
-          TEST_NAME: examenTest
+          TEST_NAME: examenTests
         with:
           configuration: tests/phpunit.xml
           args: --coverage-text
