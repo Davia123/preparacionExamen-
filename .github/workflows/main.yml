@@ -11,7 +11,7 @@ jobs:
       - name: PHPUnit Tests
         uses: php-actions/phpunit@v1
         env:
-          TEST_NAME: examenTests
+          TEST_NAME: examenTest
         with:
           configuration: tests/phpunit.xml
           args: --coverage-text
